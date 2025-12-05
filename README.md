@@ -29,7 +29,7 @@
 | --------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Core & Display**                            |        |                                                                                                                                                                                           |
 | Raspberry Pi Pico 2 W                         | 1      | The brain of the project                                                                                                                                                                  |
-| Double colored 7 segment display              | 10     | 6 (time) + 4 (date)                                                                                                                                                                       |
+| Double colored 7 segment display              | 10     | 2.1-inch Common Anode. 6 (time) + 4 (date).                                                                                                                                               |
 | 8x8 matrix display                            | 1      | Chinese weekday displayment                                                                                                                                                               |
 | 1*10 segment bar display                      | 1      | For debuging<br/>Referred to as "debug bar" in everywhere in this project                                                                                                                 |
 | 5V 3A power supply                            | 1      | Well, its name is power supply                                                                                                                                                            |
@@ -60,6 +60,12 @@
 
 *74HC595 --Signal--> UDN2981A --Power--> The common node that needs to be controlled
 ** TODO: To be determine the actual model
+
+---
+
+##### Wrote with MicroPython
+
+Normally I'm a C++ fan, but I want to develop it quickly, and trying MicroPython out of curiosity
 
 ---
 
