@@ -1,8 +1,4 @@
-# This is a legacy archive
-
-Theoretically this version should work well, but the normal seven segment display is too dark for my usage, so I'm going to start making and printing PCB and make segment displays and matrix display by myself.
-
-## This project is still under development. Only the core wiring for 7 seg is being experimented
+# This project is still under development. Only the core wiring for 7 seg is being experimented.
 
 ## A simple clock with Chinese weekday displaying and Wi-Fi automatic time synchronizition
 
