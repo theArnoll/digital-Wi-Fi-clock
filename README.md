@@ -54,7 +54,7 @@
 | DIP-24 IC Sockets                             | 1      | MAX7219                                                                                                                                                                                   |
 | 0.5mm tinned copper wire                      |        | Routing                                                                                                                                                                                   |
 | 0.35mm solid core wire                        |        | Routing and jumps<br/>Used simply because I had it on hand. Feel free to use 0.5mm ones, and that would be even better                                                                    |
-| 0.8MM tinned copper wire                      |        | Main power supply<br/>***TODO: But I haven't buy it***, that means I haven't left the breadboard phase                                                                                    |
+| 0.8MM tinned copper wire                      |        | Main power supply                                                                                                                                                                         |
 | Solder                                        |        | Why don't you need?                                                                                                                                                                       |
 | Soldering iron                                | 1      | Why don't you need?<br/>BTW I'm using a FNISRI HS-01 and setted it to 370°C                                                                                                               |
 
@@ -63,7 +63,7 @@
 
 ---
 
-##### Wrote with MicroPython
+#### Wrote with MicroPython
 
 Normally I'm a C++ fan, but I want to develop it quickly, and trying MicroPython out of curiosity
 
