@@ -221,7 +221,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -351,12 +351,120 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -389,7 +497,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./Normal",
+    "plot_directory": "./BW",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -404,6 +512,122 @@
     [
       "b3bafb94-2eb7-484c-9ca5-51c3e489edfe",
       "Root"
+    ],
+    [
+      "462df802-d7d2-4312-83d8-6c024b94f8f6",
+      "eightSegmentDisp"
+    ],
+    [
+      "f729b568-4d6d-41ac-90dd-fb3c6a19eb0c",
+      "eightSegmentDisp1"
+    ],
+    [
+      "8d6f09a8-f511-4aae-8eb6-9e4bee722c21",
+      "eightSegmentDisp2"
+    ],
+    [
+      "ce37d151-27ce-475d-a6e7-e9014d45598d",
+      "eightSegmentDisp3"
+    ],
+    [
+      "e0a7f654-b23a-4d4e-8b2d-994eaf9eb3b4",
+      "eightSegmentDisp4"
+    ],
+    [
+      "00318637-5b65-4833-a35f-3bd91f943b24",
+      "eightSegmentDisp5"
+    ],
+    [
+      "7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc",
+      "eightSegmentSingleColorDisp"
+    ],
+    [
+      "c72d8e52-87c6-49c3-ae42-22a8b44487a9",
+      "eightSegmentSingleColorDisp1"
+    ],
+    [
+      "cfa70003-8191-42b9-b040-aaf4d24ff616",
+      "eightSegmentSingleColorDisp2"
+    ],
+    [
+      "d5aa0ab2-682a-49b4-894f-c458887a376a",
+      "eightSegmentSingleColorDisp3"
+    ],
+    [
+      "eb9cee19-6136-4366-a331-5a697b75b6f3",
+      "MOSFETarray"
+    ],
+    [
+      "372aff7d-81c7-4683-a2ac-fdfd3376a7f3",
+      "MOSFET3V3-12Vtoggle"
+    ],
+    [
+      "7ec6a942-2ed5-41c7-b4db-6bc2ee8f91c6",
+      "MOSFET3V3-12Vtoggle1"
+    ],
+    [
+      "f44b3806-e0da-4419-9220-29292d5f8c24",
+      "MOSFET3V3-12Vtoggle4"
+    ],
+    [
+      "3cadf683-0501-40b3-b5cc-f76f306c5ee1",
+      "MOSFET3V3-12Vtoggle2"
+    ],
+    [
+      "45465640-6b72-4167-baa6-faa528b0c762",
+      "MOSFET3V3-12Vtoggle3"
+    ],
+    [
+      "d739fcbb-bd12-4e98-93dc-f415726b9f0e",
+      "MOSFET3V3-12Vtoggle5"
+    ],
+    [
+      "23ef2589-fd14-4891-8781-15eab96504bf",
+      "MOSFET3V3-12Vtoggle6"
+    ],
+    [
+      "8cfb95cd-7e1e-4fa2-8d89-a35d04d7a686",
+      "MOSFET3V3-12Vtoggle7"
+    ],
+    [
+      "ad953d8d-289c-4c75-9d5b-19e4ea20be5a",
+      "MOSFETarray1"
+    ],
+    [
+      "372aff7d-81c7-4683-a2ac-fdfd3376a7f3",
+      "MOSFET3V3-12Vtoggle"
+    ],
+    [
+      "f44b3806-e0da-4419-9220-29292d5f8c24",
+      "MOSFET3V3-12Vtoggle4"
+    ],
+    [
+      "7ec6a942-2ed5-41c7-b4db-6bc2ee8f91c6",
+      "MOSFET3V3-12Vtoggle1"
+    ],
+    [
+      "d739fcbb-bd12-4e98-93dc-f415726b9f0e",
+      "MOSFET3V3-12Vtoggle5"
+    ],
+    [
+      "3cadf683-0501-40b3-b5cc-f76f306c5ee1",
+      "MOSFET3V3-12Vtoggle2"
+    ],
+    [
+      "45465640-6b72-4167-baa6-faa528b0c762",
+      "MOSFET3V3-12Vtoggle3"
+    ],
+    [
+      "23ef2589-fd14-4891-8781-15eab96504bf",
+      "MOSFET3V3-12Vtoggle6"
+    ],
+    [
+      "8cfb95cd-7e1e-4fa2-8d89-a35d04d7a686",
+      "MOSFET3V3-12Vtoggle7"
+    ],
+    [
+      "b269faa2-4329-46c0-9d7b-e550cc35b06d",
+      "matrix7x7"
     ]
   ],
   "text_variables": {}

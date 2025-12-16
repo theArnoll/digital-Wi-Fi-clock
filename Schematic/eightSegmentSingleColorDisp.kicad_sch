@@ -1,0 +1,3533 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f114b5d-cb0e-4a0f-a12c-3543aa84c69c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 52.07 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "623b99fc-ca63-454b-ab41-c8c9a9aabb19")
+	)
+	(junction
+		(at 52.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637d9cfc-841a-4de3-afef-bf0c0e64c161")
+	)
+	(junction
+		(at 52.07 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78006d91-c50c-423b-a4ea-36d526e8a477")
+	)
+	(junction
+		(at 52.07 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c9b4f75-a95a-4b98-b124-c7f3630d35e9")
+	)
+	(junction
+		(at 52.07 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b346d5c8-ece8-4e7a-99ae-628419bdba92")
+	)
+	(junction
+		(at 52.07 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15de06b-72a7-43d9-9ce0-7dd5f44cd227")
+	)
+	(wire
+		(pts
+			(xy 52.07 45.72) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240e7c37-1485-4912-b8d0-72557546fe9e")
+	)
+	(wire
+		(pts
+			(xy 52.07 57.15) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c50f17-e0d8-4206-80b1-5f602d9ae494")
+	)
+	(wire
+		(pts
+			(xy 52.07 102.87) (xy 52.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7731b9-4f49-4441-b770-b28315c95518")
+	)
+	(wire
+		(pts
+			(xy 52.07 34.29) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c710b22-1b8d-470c-b013-87f4a9b45fbb")
+	)
+	(wire
+		(pts
+			(xy 52.07 80.01) (xy 52.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8a5ce8-a6f6-4b41-82dd-ce7f02153c58")
+	)
+	(wire
+		(pts
+			(xy 52.07 22.86) (xy 52.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908fd94c-6e5f-4f09-940d-7d8a94d7300d")
+	)
+	(wire
+		(pts
+			(xy 52.07 68.58) (xy 52.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadc71e3-c9f6-4a87-8b9f-2c94383c8752")
+	)
+	(hierarchical_label "seg2"
+		(shape input)
+		(at 21.59 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0589472f-e696-471a-b70a-0a6199adb2e0")
+	)
+	(hierarchical_label "seg7"
+		(shape input)
+		(at 21.59 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11f47886-b577-43f3-80c0-5aefbb7e89b1")
+	)
+	(hierarchical_label "seg6"
+		(shape input)
+		(at 21.59 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44664e22-3a78-4591-8048-7232d598c1a4")
+	)
+	(hierarchical_label "seg4"
+		(shape input)
+		(at 21.59 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f2d5978-db82-44ed-8021-265cc961541a")
+	)
+	(hierarchical_label "seg1"
+		(shape input)
+		(at 21.59 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ebec9da-7984-4c50-9c48-413274a25e5e")
+	)
+	(hierarchical_label "seg8"
+		(shape input)
+		(at 21.59 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75068d47-5682-4bcc-bf7d-9929ffc34c65")
+	)
+	(hierarchical_label "seg5"
+		(shape input)
+		(at 21.59 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c9db960-769e-400a-b0f4-55a6dc09efaa")
+	)
+	(hierarchical_label "seg3"
+		(shape input)
+		(at 21.59 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca4d927b-53e9-41c1-a34e-b0e8035ecb81")
+	)
+	(hierarchical_label "comWhite"
+		(shape input)
+		(at 52.07 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0391677-cddc-4417-bd48-4ac8baaf350d")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e07f75-c254-4237-9fcf-0a511d43eb89")
+		(property "Reference" "D386"
+			(at 26.9875 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3222a701-df15-4df4-a539-946184713d0a")
+		)
+		(pin "1"
+			(uuid "ee87687b-2c99-4f99-b9ab-a875e2adebda")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D386")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D418")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D450")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D482")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12d6caa0-e963-4164-a0d5-7e61edbea59b")
+		(property "Reference" "D404"
+			(at 42.2275 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff30ba5a-ae0e-4381-87d7-13be7e41286c")
+		)
+		(pin "1"
+			(uuid "8c012eb2-c210-43c2-ba8f-026f2204f5fd")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D404")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D436")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D468")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cda0599-1296-41b7-bd3e-6e0048e2a9fd")
+		(property "Reference" "D408"
+			(at 42.2275 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9309f69f-743d-4f50-a516-3be7f63a5b08")
+		)
+		(pin "1"
+			(uuid "e7275b87-602e-4757-b7f4-3eb191788b17")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D408")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D440")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D472")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31c4cfd6-af22-4ef9-b287-a862c7250903")
+		(property "Reference" "D394"
+			(at 34.6075 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a9dafc7-f54c-41e9-9670-4b4653f1e44f")
+		)
+		(pin "1"
+			(uuid "bcedd774-bfe8-4b7d-852e-da5d46e5785e")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D394")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D426")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D458")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D490")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "342c8332-1475-4210-8a9e-408c5481d0ed")
+		(property "Reference" "D388"
+			(at 26.9875 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca5c28ee-be7d-4f70-8ca4-17b8e97455f5")
+		)
+		(pin "1"
+			(uuid "bf62ca4c-dc24-423d-a835-46fa1af7b79c")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D388")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D420")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D452")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D484")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369eef9e-e8ab-4de1-9dae-b612ecd29b3d")
+		(property "Reference" "D405"
+			(at 42.2275 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1127f09-14c3-4d9b-b7a6-32dd48e7ead0")
+		)
+		(pin "1"
+			(uuid "2aaab788-fb13-48df-aa99-9f8d7b962360")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D405")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D437")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D469")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46cd55d8-c8cd-4f11-b189-4342179fe5bf")
+		(property "Reference" "D398"
+			(at 34.6075 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdf0a6e8-450d-4dff-afd5-a101c6125b48")
+		)
+		(pin "1"
+			(uuid "3186091a-e1f2-4dc5-a87f-90e1fb87056c")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D398")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D430")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D462")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D494")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47114084-a423-478c-a698-df98cd8e9a6d")
+		(property "Reference" "D385"
+			(at 26.9875 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f09d1ba4-8193-469e-9444-f43d77c951f3")
+		)
+		(pin "1"
+			(uuid "d5bbdc10-1f39-40b1-9e94-9574390d88fe")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D385")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D417")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D449")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D481")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc5856f-319e-4c20-a384-33b47663d5d1")
+		(property "Reference" "D399"
+			(at 34.6075 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bfcd2ab-b0ec-4df0-b1ab-04ccbdfdf2e4")
+		)
+		(pin "1"
+			(uuid "71d1783d-d256-4a11-8994-1344a26a3c41")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D399")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D431")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D463")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D495")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "546f2249-53b3-492b-8f4c-1cf116d74d58")
+		(property "Reference" "D402"
+			(at 42.2275 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a3571f8-7a05-46aa-a913-3d458894d5e7")
+		)
+		(pin "1"
+			(uuid "e9e8e315-9f31-4b6f-8273-6c56627b0fa2")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D402")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D434")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D466")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D498")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b96d414-0cad-4037-81c6-be560586d162")
+		(property "Reference" "D401"
+			(at 42.2275 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96593473-bdf0-4143-9fe0-82aaa99e159b")
+		)
+		(pin "1"
+			(uuid "a2f870dd-8583-4c0d-a63d-eff71f496927")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D401")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D433")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D465")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D497")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7161bc15-aa6e-4ad7-8ef1-a043b6d67149")
+		(property "Reference" "D407"
+			(at 42.2275 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f17a356-101e-418f-bcf0-88c5f6d45666")
+		)
+		(pin "1"
+			(uuid "eb596c4a-0896-4d52-b88c-3323e3daee73")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D407")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D439")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D471")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75270ae3-d6b4-4b52-9cdc-090fefeeabfc")
+		(property "Reference" "D400"
+			(at 34.6075 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11f47dbb-cf1a-4a04-bb73-da1510ade0a2")
+		)
+		(pin "1"
+			(uuid "279c432e-7b0b-4611-9e6c-8636d629269c")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D400")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D432")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D464")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D496")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76bb3e60-9c90-4996-80e9-d6f8562d1cb1")
+		(property "Reference" "D416"
+			(at 49.8475 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5f14ce5-1f41-4983-b02d-390b4c075af7")
+		)
+		(pin "1"
+			(uuid "6289f0be-352c-47d5-91c9-a48f118a397c")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D416")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D448")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D480")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D512")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f908c27-74ec-476c-ad78-b27b616b2a29")
+		(property "Reference" "D387"
+			(at 26.9875 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da039755-7cee-41c5-8288-a55be6be4ecb")
+		)
+		(pin "1"
+			(uuid "df303b0a-6a5e-4bc8-b318-b0389b9f1e97")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D387")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D419")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D451")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D483")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998c801a-2847-4149-bacd-a561cfeccf41")
+		(property "Reference" "D412"
+			(at 49.8475 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7363c753-8bca-4b07-91b7-9624cd15c100")
+		)
+		(pin "1"
+			(uuid "0693707d-b15b-4b42-9cbc-870943bbc61f")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D412")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D444")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D476")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f98ac6-4550-47f8-9983-276289583f7d")
+		(property "Reference" "D397"
+			(at 34.6075 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6df4a7e2-60a6-47b8-868a-df5dceaefe72")
+		)
+		(pin "1"
+			(uuid "e7a4c91a-f9d1-4dd0-b3bf-7f00661df3ef")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D397")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D429")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D461")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D493")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7b341e-dfc4-4bcb-a3b7-95962f1a7028")
+		(property "Reference" "D396"
+			(at 34.6075 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c267dc9-6edc-446c-be54-eff1950e6997")
+		)
+		(pin "1"
+			(uuid "a8058339-1000-43f2-8703-13a8bc6512b3")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D396")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D428")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D460")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D492")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad9dee77-95ff-4459-a61a-3ebff577fe82")
+		(property "Reference" "D391"
+			(at 26.9875 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c924436-e439-4607-91b3-351013f48c75")
+		)
+		(pin "1"
+			(uuid "732564da-ec75-42b5-b760-903287805203")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D391")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D423")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D455")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D487")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d78ffd-bbe5-495c-9db5-3a70994949c1")
+		(property "Reference" "D403"
+			(at 42.2275 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1cd89fb-cec1-4c0b-9742-4f05a417e72c")
+		)
+		(pin "1"
+			(uuid "1a8ab152-f707-4987-ab19-5bdcc0efbcc1")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D403")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D435")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D467")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D499")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9ff089d-5943-447c-8946-354388cec704")
+		(property "Reference" "D389"
+			(at 26.9875 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4003e450-5b35-4ed1-b0c4-a9bc53f98f91")
+		)
+		(pin "1"
+			(uuid "f5cc707f-88e9-49b5-929f-bb68baef74c8")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D389")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D421")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D453")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D485")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc9cd1d-7abd-4bbb-8aad-e97817f5fb3c")
+		(property "Reference" "D414"
+			(at 49.8475 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a6dd504-ab40-43de-83b5-01ccd767f3df")
+		)
+		(pin "1"
+			(uuid "dc7cd8a8-6ae7-4639-9160-755007a6d243")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D414")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D446")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D478")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bedb29c0-dad7-49a7-ad97-b2ca5fab8894")
+		(property "Reference" "D413"
+			(at 49.8475 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a0ffd75-a900-4034-92e9-61ab2e96224c")
+		)
+		(pin "1"
+			(uuid "469bab95-4cbf-43a3-9914-633591def5ba")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D413")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D445")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D477")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46dde1d-3bff-426d-87d3-e689dc88ec1d")
+		(property "Reference" "D393"
+			(at 34.6075 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d578eec-3ce6-4814-8827-fb0e16d6953f")
+		)
+		(pin "1"
+			(uuid "b615d0e8-70ba-416f-8664-ed95f0bed69c")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D393")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D425")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D457")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D489")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d75498-951e-480d-84d1-d51f1039c2e4")
+		(property "Reference" "D406"
+			(at 42.2275 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.2275 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78fd171f-d5dc-4569-9637-406c4846c554")
+		)
+		(pin "1"
+			(uuid "3e0fd9f7-bda8-4d4a-9b5e-1fdd6f4bf390")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D406")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D438")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D470")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d047d061-7e8a-42c1-aeac-7adff6e9e90a")
+		(property "Reference" "D395"
+			(at 34.6075 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.6075 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03b7dd7f-d3df-408f-97f4-938b75dc1675")
+		)
+		(pin "1"
+			(uuid "42219075-93f1-44c6-a558-0066de135aee")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D395")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D427")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D459")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D491")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5463622-7129-4042-989f-667c177a8d09")
+		(property "Reference" "D411"
+			(at 49.8475 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "855b07b8-a4f4-4ca2-8d04-ddb4e72f540c")
+		)
+		(pin "1"
+			(uuid "1d978e76-0a63-48a8-92d3-a5d4eaa6deb3")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D411")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D443")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D475")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b90b66-a7cc-4b5d-be1d-b6b9483d71d2")
+		(property "Reference" "D392"
+			(at 26.9875 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd8b1adb-9d2d-47a6-a69e-400ea3ef36a4")
+		)
+		(pin "1"
+			(uuid "4729acc7-bc46-4e5c-833c-31342376893a")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D392")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D424")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D456")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D488")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daddc36f-22de-46c7-afb6-a6006ffece99")
+		(property "Reference" "D410"
+			(at 49.8475 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32fae2f1-295f-42d0-9428-2819ce9ea14d")
+		)
+		(pin "1"
+			(uuid "1d7f9317-c296-4f72-8cbc-185b02d18725")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D410")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D442")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D474")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1813b08-7723-40a3-98f4-922c74e2abfc")
+		(property "Reference" "D409"
+			(at 49.8475 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5f8cef1-2748-4f2c-8e5e-3b2b103dab46")
+		)
+		(pin "1"
+			(uuid "1d3d6b0d-e29c-46b3-ad67-417c0112d822")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D409")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D441")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D473")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 25.4 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb7697d3-a6d4-457c-98f2-00f25609f9cf")
+		(property "Reference" "D390"
+			(at 26.9875 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 26.9875 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20a47572-5fb6-4e92-8ce9-f8f91d5cafc0")
+		)
+		(pin "1"
+			(uuid "154ec019-ec25-45cf-8a45-57d08d278abb")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D390")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D422")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D454")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D486")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa95cd4-59fa-44f2-b3cb-1e053ebb9ae2")
+		(property "Reference" "D415"
+			(at 49.8475 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5210950"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b6d6b2e-8928-4516-b082-308dbd86e695")
+		)
+		(pin "1"
+			(uuid "b053521f-ce7b-49fa-8f68-c103f8c342d9")
+		)
+		(instances
+			(project "DigitalWiFiClock"
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/7baa75a6-517b-44d0-b3c0-6c1d5c17e3dc"
+					(reference "D415")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/c72d8e52-87c6-49c3-ae42-22a8b44487a9"
+					(reference "D447")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/cfa70003-8191-42b9-b040-aaf4d24ff616"
+					(reference "D479")
+					(unit 1)
+				)
+				(path "/b3bafb94-2eb7-484c-9ca5-51c3e489edfe/d5aa0ab2-682a-49b4-894f-c458887a376a"
+					(reference "D511")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
